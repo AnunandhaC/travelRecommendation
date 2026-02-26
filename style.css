@@ -62,7 +62,7 @@ img {
     left: 8%;
     transform: translateY(-50%);
     color: white;
-    max-width: 500px;
+    /* max-width: 500px; */
     z-index: 2;
 }
 
@@ -79,6 +79,7 @@ img {
     font-size: 16px;
     margin-bottom: 25px;
     line-height: 1.6;
+    
 }
 
 /* Button */
@@ -94,4 +95,52 @@ img {
 
 .btn:hover {
     background-color: darkcyan;
+}
+.hero { 
+    position: relative;
+ } 
+ #icon{ 
+    position: absolute;
+     top: 50%; 
+     left: 20px; 
+     transform: translateY(-50%);
+      display: flex; 
+      flex-direction: column;
+       gap: 25px;
+        color: white; 
+        font-size: 22px;
+         z-index: 2;
+         } 
+.pbox{ 
+    background: rgba(0, 0, 0, 0.5);
+     padding: 20px;
+      border-radius: 8px;
+       margin-bottom: 40px;
+       
+}
+#p1{
+    max-width: 500px;
+}
+.team-section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.team-members {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 200px;
+}
+.card span {
+    display: block;
+    margin-top: 10px;
+    background: royalblue;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
 }
