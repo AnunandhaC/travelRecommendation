@@ -144,3 +144,62 @@ img {
     border-radius: 5px;
     text-align: center;
 }
+/* Contact Form Container */
+.contact-form {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    transform: translateY(-50%);
+    width: 350px;
+    z-index: 2;
+}
+
+/* Glass effect */
+.contact-form form {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 25px;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.contact-form label {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+    background: transparent;
+    padding: 10px;
+    border:1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    color: black;
+}
+
+/* Submit button */
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: darkcyan;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: black;
+}
