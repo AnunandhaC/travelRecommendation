@@ -203,3 +203,28 @@ img {
 .contact-form textarea::placeholder {
     color: black;
 }
+.card img {
+    width: 100%;
+    height: 180px;       /* fixed height */
+    object-fit: cover;   /* prevents stretching */
+    display: block;
+}
+.results-container {
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    width: 400px;   /* fixed width */
+    z-index: 2;
+}
+
+.card {
+    background: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+.visit{
+    color:white;
+    background-color:teal;
+}
